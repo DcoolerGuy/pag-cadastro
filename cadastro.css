@@ -1,0 +1,93 @@
+*{
+padding: 0;
+border: 0;
+color: black;
+}
+
+.header{ 
+    padding: 15px;
+    background-color: beige;
+    border-bottom:4px solid rgb(255, 41, 41);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.background{
+    background-image: url(./658896.jpg);
+    padding: 400px;
+    
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+
+.caixa{
+    background-color: beige;
+    padding: 20px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.campo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+
+button{
+    margin-top: 20px;
+    width: 120px;
+    color: #ffffff;
+    background-color: red;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.caixa h1 {
+    color: #000000;
+    margin-bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.caixa h3 {
+    color: red;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.campo input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid red;
+    color: black;
+}
+
+.footer{
+    padding: 50px;
+    background-color: beige;
+    border-top:4px solid rgb(255, 41, 41);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+} 
